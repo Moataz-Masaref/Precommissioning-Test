@@ -1,5 +1,5 @@
 {
-  "name": "Precommissioning",
+  "name": "اختبارات ما قبل التشغيل",
   "short_name": "Precommissioning",
   "description": "نماذج اختبارات ما قبل التشغيل وسجل الأصول وسجل LV",
   "lang": "ar",
@@ -9,7 +9,7 @@
   "display": "standalone",
   "orientation": "any",
   "background_color": "#ffffff",
-  "theme_color": "#143c68",
+  "theme_color": "#1730c9",
   "icons": [
     {
       "src": "icon-192.png",
