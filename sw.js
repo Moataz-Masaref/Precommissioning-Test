@@ -1,9 +1,10 @@
 // Service worker — يخلي الأداة تفتح من غير نت ويحدّثها لوحدها لما ترفع نسخة جديدة
-const CACHE = 'sec-pc-v47';
-const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-512-maskable.png', './apple-touch-icon.png'];
+const CACHE = 'sec-pc-v48';
+const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-512-maskable.png', './apple-touch-icon.png', './templates/main.xlsx', './templates/lv.xlsx'];
 const LIBS = [
   'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js',
-  'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js'
+  'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js',
+  'https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap'
 ];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(async c => {
