@@ -1,5 +1,5 @@
 // Service worker — يخلي الأداة تفتح من غير نت ويحدّثها لوحدها لما ترفع نسخة جديدة
-const CACHE = 'sec-pc-v48';
+const CACHE = 'sec-pc-v49';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-512-maskable.png', './apple-touch-icon.png', './templates/main.xlsx', './templates/lv.xlsx'];
 const LIBS = [
   'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js',
